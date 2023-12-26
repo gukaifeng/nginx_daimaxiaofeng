@@ -6,7 +6,7 @@ services:
       - 80:80
       - 443:443
     volumes:
-      - /home/daimaxiaofeng/app/nginx/nginx.conf:/etc/nginx/nginx.conf
-      - /home/daimaxiaofeng/app/nginx/locations:/etc/nginx/locations
-      - /home/daimaxiaofeng/app/nginx/html:/usr/share/nginx/html
-      - /home/daimaxiaofeng/app/nginx/cert:/usr/share/nginx/cert
+      - /home/daimaxiaofeng/apps/nginx/nginx.conf:/etc/nginx/nginx.conf
+      - /home/daimaxiaofeng/apps/nginx/locations:/etc/nginx/locations
+      - /home/daimaxiaofeng/apps/nginx/html:/usr/share/nginx/html
+      - /home/daimaxiaofeng/apps/nginx/cert:/usr/share/nginx/cert
